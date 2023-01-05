@@ -1,0 +1,5 @@
+../Core/Src/midi.c:39:10:parse_meta_event	32	static
+../Core/Src/midi.c:61:10:parse_midi_event	32	static
+../Core/Src/midi.c:106:6:parse_header	40	static
+../Core/Src/midi.c:131:6:parse_song	32	static
+../Core/Src/midi.c:177:10:play_song	24	static

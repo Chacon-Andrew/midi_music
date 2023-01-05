@@ -1,0 +1,27 @@
+19:22:24 **** Incremental Build of configuration Debug for project First_Project ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/stm32l4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32L476xx -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32l4xx_it.d" -MT"Core/Src/stm32l4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32l4xx_it.o"
+arm-none-eabi-gcc -o "First_Project.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Andre\personal_projects\midi_music\midi_music\First_Project\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="First_Project.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: First_Project.elf
+ 
+arm-none-eabi-size   First_Project.elf 
+arm-none-eabi-objdump -h -S  First_Project.elf  > "First_Project.list"
+   text	   data	    bss	    dec	    hex	filename
+  12132	  71460	  26484	 110076	  1adfc	First_Project.elf
+Finished building: default.size.stdout
+ 
+Finished building: First_Project.list
+ 
+19:23:21 **** Build of configuration Debug for project music ****
+make -j16 all 
+arm-none-eabi-gcc -o "music.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Andre\personal_projects\midi_music\midi_music\First_Project\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="music.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: music.elf
+ 
+arm-none-eabi-size   music.elf 
+arm-none-eabi-objdump -h -S  music.elf  > "music.list"
+   text	   data	    bss	    dec	    hex	filename
+  12132	  71460	  26484	 110076	  1adfc	music.elf
+Finished building: default.size.stdout
+ 
+Finished building: music.list
+ 

@@ -1,0 +1,3 @@
+../Core/Src/little_endian.c:12:10:convert_to_uint16	24	static
+../Core/Src/little_endian.c:18:10:convert_to_uint24	16	static
+../Core/Src/little_endian.c:22:10:convert_to_uint32	24	static

@@ -1,0 +1,12 @@
+../Core/Src/demo.c:76:13:init_systick	16	static
+../Core/Src/demo.c:150:6:pause	4	static
+../Core/Src/demo.c:158:6:unpause	4	static
+../Core/Src/demo.c:166:6:SysTick_Handler	4	static
+../Core/Src/demo.c:184:6:remote_on	4	static
+../Core/Src/demo.c:191:6:remote_off	4	static
+../Core/Src/demo.c:198:17:local_song	16	static
+../Core/Src/demo.c:205:10:local_song_size	16	static
+../Core/Src/demo.c:212:6:local_play_song	4	static
+../Core/Src/demo.c:221:6:run_project	16	static
+../Core/Src/demo.c:291:6:Error_Handler	4	static
+../Core/Src/demo.c:295:6:run_demo	8	static

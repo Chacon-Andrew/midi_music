@@ -1,0 +1,16 @@
+19:23:21 **** Build of configuration Debug for project music ****
+make -j16 all 
+arm-none-eabi-gcc -o "music.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Andre\personal_projects\midi_music\midi_music\First_Project\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="music.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: music.elf
+ 
+arm-none-eabi-size   music.elf 
+arm-none-eabi-objdump -h -S  music.elf  > "music.list"
+   text	   data	    bss	    dec	    hex	filename
+  12132	  71460	  26484	 110076	  1adfc	music.elf
+Finished building: default.size.stdout
+ 
+Finished building: music.list
+ 
+
+19:23:22 Build Finished. 0 errors, 0 warnings. (took 1s.74ms)
+

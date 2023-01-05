@@ -1,0 +1,5 @@
+../Core/Src/tone.c:45:10:hertz_to_duration	24	static
+../Core/Src/tone.c:53:10:get_counter	4	static
+../Core/Src/tone.c:58:9:add_tone	40	static
+../Core/Src/tone.c:78:9:remove_tone	32	static
+../Core/Src/tone.c:92:6:play_tones	24	static

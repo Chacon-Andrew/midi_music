@@ -1,0 +1,5 @@
+../Core/Src/adc.c:21:6:HAL_ADC_MspInit	184	static
+../Core/Src/adc.c:65:6:HAL_ADC_MspDeInit	16	static
+../Core/Src/adc.c:75:6:ADC_Init	48	static
+../Core/Src/adc.c:124:6:ADC_Start	8	static
+../Core/Src/adc.c:128:10:ADC_Read_Value_Blocking	8	static

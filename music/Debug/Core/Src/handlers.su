@@ -1,0 +1,2 @@
+../Core/Src/handlers.c:27:6:EXTI15_10_IRQHandler	16	static
+../Core/Src/handlers.c:50:6:EXTI9_5_IRQHandler	16	static
